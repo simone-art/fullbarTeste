@@ -224,8 +224,87 @@ margin-top: -20px;
     display: flex;
     flex-direction: row;
 }
+.lorem-impsu-dos {
+    color: gray;
+    font-size: 40px;
+    position: relative;
+    top: 200px;
+    left: 600px;
+    bottom: 20px;
+}
 
+.container-texto {
+    display: flex;
+    flex-direction: row;
+}
 
+.imagem {
+    width: 1200px;
+    height: 250px;
+    background-color: gray;
+    position: relative;
+    top: 200px;
+    left: 320px;
+}
+.texto-container {
+    font-size: 15px;
+    position: relative;
+    top: 200px;
+    left: 350px;
+    color: gray;
+}
+.texto-container2 {
+    font-size: 15px;
+    position: relative;
+    top: 320px;
+    left: -220px;
+    color: gray;
+}
+
+.circulos-pequenos1 {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: gray;
+    position: relative;
+    top: 220px;
+    left: 600px;
+}
+
+.circulos-pequenos1:hover{
+    background-color: blueviolet;
+    
+}
+
+.circulos-pequenos2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: gray;
+    position: relative;
+    top: 210px;
+    left: 620px;
+}
+
+.circulos-pequenos2:hover {
+    background-color: blueviolet;
+    
+}
+
+.circulos-pequenos3 {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: gray;
+    position: relative;
+    top: 200px;
+    left: 640px;
+}
+
+.circulos-pequenos3:hover {
+    background-color: blueviolet;
+    
+}
 
 
 
