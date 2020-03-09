@@ -89,11 +89,151 @@ margin-top: -20px;
     
 }
 
-.texto-lorem{
+.texto-lorem {
     color: gray;
     font-size: 40px;
     position: relative;
     top: 10px;
-    left: 500px;
+    left: 600px;
+    bottom: 20px;
+    
 }
+
+#texto-circulo {
+    display: flex;
+    flex-direction: row;
+}
+
+.circulo1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: gray;
+    color: gray;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+.texto-circulo1 {
+    color: gray;
+    font-size: 20px;
+    position: relative;
+    top: -12px;
+    left: 50px;
+    width: 150px;
+}
+
+.texto-coluna1 {
+    width: 150px;
+    color: gray;
+    font-size: 12px;
+    position: relative;
+    top: 180px;
+    left: 60px;
+}
+
+.circulo2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: gray;
+    color: gray;
+    position: relative;
+    top: 150px;
+    left: 120px;
+}
+
+.texto-circulo2 {
+    color: gray;
+    font-size: 20px;
+    position: relative;
+    top: -12px;
+    left: 50px;
+    width: 150px;
+}
+
+.texto-coluna2 {
+    width: 150px;
+    color: gray;
+    font-size: 12px;
+    position: relative;
+    top: 180px;
+    left: 90px;
+}
+
+.circulo3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: gray;
+    color: gray;
+    position: relative;
+    top: 150px;
+    left: 130px;
+}
+
+.texto-circulo3 {
+    color: gray;
+    font-size: 20px;
+    position: relative;
+    top: -12px;
+    left: 50px;
+    width: 150px;
+}
+
+.texto-coluna3 {
+    width: 150px;
+    color: gray;
+    font-size: 12px;
+    position: relative;
+    top: 180px;
+    left: 100px;
+}
+
+.circulo4 {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: gray;
+    color: gray;
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+
+.texto-circulo4 {
+    color: gray;
+    font-size: 20px;
+    position: relative;
+    top: -12px;
+    left: 50px;
+    width: 150px;
+}
+
+.texto-coluna4 {
+    width: 150px;
+    color: gray;
+    font-size: 12px;
+    position: relative;
+    top: 180px;
+    left: 120px;
+}
+
+.texto-longo {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
