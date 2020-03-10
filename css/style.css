@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+/* body {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: tomato;
+} */
+
 .logo {
     margin-top: 20px;
     margin-left: 300px;
@@ -20,23 +27,23 @@
 .Navbar-menu {
 display: flex;
 flex-direction: row;
-justify-content: flex-end;
+justify-content: center;
 width: 90%;
+margin-left: 300px;
 
 }
 
 .Menu {
 color: gray;
-text-decoration-color: gray;
 text-decoration: none;
-font-size: 18px;
-margin-right: 30px;
+font-size: 12px;
+margin-right: 10px;
 margin-top: -20px;
 }
 
 #central {
-    width: 1200px;
-    height: 600px;
+    width: 1000px;
+    height: 500px;
     background-color: gray;
     margin: 0 auto;
 
@@ -48,10 +55,9 @@ margin-top: -20px;
 }
 
 .texto-central {
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
     color: white;
-    width: 1000px;
    margin-top: 120px;
    margin-left: 80px;
    margin-right: 80px;
@@ -62,7 +68,6 @@ margin-top: -20px;
     font-size: 20px;
     text-align: center;
     color: white;
-    width: 1000px;
     margin-top: -50px;
     margin-left: 80px;
    margin-right: 80px;
@@ -72,7 +77,6 @@ margin-top: -20px;
 .botoes{
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
 .botao1 {
@@ -84,7 +88,7 @@ margin-top: -20px;
     height: 30px;
     position: relative;
     top: 10px;
-    left: 500px;
+    left: 400px;
     margin-right: 20px;
     
 }
@@ -94,7 +98,7 @@ margin-top: -20px;
     font-size: 40px;
     position: relative;
     top: 10px;
-    left: 600px;
+    left: 550px;
     bottom: 20px;
     
 }
@@ -102,6 +106,8 @@ margin-top: -20px;
 #texto-circulo {
     display: flex;
     flex-direction: row;
+    background-color: turquoise;
+    margin-top: 20px;
 }
 
 .circulo1 {
@@ -112,7 +118,7 @@ margin-top: -20px;
     color: gray;
     position: relative;
     top: 150px;
-    left: 100px;
+    left: 70px;
 }
 
 .texto-circulo1 {
@@ -130,7 +136,7 @@ margin-top: -20px;
     font-size: 12px;
     position: relative;
     top: 180px;
-    left: 60px;
+    left: 30px;
 }
 
 .circulo2 {
@@ -141,7 +147,7 @@ margin-top: -20px;
     color: gray;
     position: relative;
     top: 150px;
-    left: 120px;
+    left: 90px;
 }
 
 .texto-circulo2 {
@@ -159,7 +165,7 @@ margin-top: -20px;
     font-size: 12px;
     position: relative;
     top: 180px;
-    left: 90px;
+    left: 60px;
 }
 
 .circulo3 {
@@ -170,7 +176,7 @@ margin-top: -20px;
     color: gray;
     position: relative;
     top: 150px;
-    left: 130px;
+    left: 110px;
 }
 
 .texto-circulo3 {
@@ -188,7 +194,7 @@ margin-top: -20px;
     font-size: 12px;
     position: relative;
     top: 180px;
-    left: 100px;
+    left: 80px;
 }
 
 .circulo4 {
@@ -199,7 +205,7 @@ margin-top: -20px;
     color: gray;
     position: relative;
     top: 150px;
-    left: 150px;
+    left: 130px;
 }
 
 .texto-circulo4 {
@@ -217,7 +223,7 @@ margin-top: -20px;
     font-size: 12px;
     position: relative;
     top: 180px;
-    left: 120px;
+    left: 100px;
 }
 
 .texto-longo {
@@ -229,7 +235,7 @@ margin-top: -20px;
     font-size: 40px;
     position: relative;
     top: 200px;
-    left: 600px;
+    left: 550px;
     bottom: 20px;
 }
 
@@ -239,18 +245,18 @@ margin-top: -20px;
 }
 
 .imagem {
-    width: 1200px;
+    width: 1300px;
     height: 250px;
     background-color: gray;
     position: relative;
     top: 200px;
-    left: 320px;
+    left: 300px;
 }
 .texto-container {
     font-size: 15px;
     position: relative;
     top: 200px;
-    left: 350px;
+    left: 330px;
     color: gray;
 }
 .texto-container2 {
@@ -315,6 +321,7 @@ margin-top: -20px;
     background-color: gray;
     position: relative;
     top: 300px;
+
 }
 
 .titulo-footer {
@@ -411,6 +418,7 @@ margin-top: -20px;
 .container-footer5 {
     display: flex;
     flex-direction: column;
+
 }
 
 .titulo-footer5 {
@@ -496,6 +504,14 @@ margin-top: -20px;
     top: -460px;
 }
 
+.titulo-footer-final {
+    color: white;
+    font-size: 12px;
+    position: relative;
+    top: -460px;
+    left: 500px;
+
+}
 
 
 
