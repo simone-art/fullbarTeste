@@ -38,14 +38,63 @@ color: gray;
 text-decoration: none;
 font-size: 12px;
 margin-right: 10px;
-margin-top: -20px;
+margin-top: -30px;
+float:left;
+
 }
+
+.menu-fullbar, .menu-fullbar2, .menu-fullbar3, .menu-fullbar4 {
+list-style:none; 
+float:left; 
+}
+
+.menu-fullbar li, .menu-fullbar2 li, .menu-fullbar3 li, .menu-fullbar4 li {
+position:relative; 
+float:left; 
+
+}
+
+.menu-fullbar li a, .menu-fullbar2 li a, .menu-fullbar3 li a, .menu-fullbar4 li a{
+    color:#333; 
+    text-decoration:none; 
+    display:block;
+    margin-bottom: 10px;
+}
+
+.menu-fullbar li a:hover, .menu-fullbar2 li a:hover, .menu-fullbar3 li a:hover, .menu-fullbar4 li a:hover {
+background-color:#333; 
+color:#fff; 
+text-shadow:0px 0px 5px #fff; 
+}
+
+.menu-fullbar li ul, .menu-fullbar2 li ul, .menu-fullbar3 li ul, .menu-fullbar4 li ul {
+position:absolute; 
+top:20px; 
+left: 0;
+background-color:#fff; 
+display:none;
+width: 110px;
+height: 110px;
+border-radius: 20px;
+background-color: yellow;
+}
+
+.menu-fullbar li:hover ul, .menu-fullbar li.over ul, .menu-fullbar2 li:hover ul, .menu-fullbar2 li.over.ul, .menu-fullbar3 li:hover ul, .menu-fullbar3 li.over.ul, .menu-fullbar4 li:hover ul, .menu-fullbar4 li.over.ul {
+    display: block;
+}
+
+.menu-fullbar li ul li, .menu-fullbar2 li ul li, .menu-fullbar3 li ul li, .menu-fullbar4 li ul li {
+display:block; 
+width:150px;
+}
+
 
 #central {
     width: 1000px;
     height: 500px;
     background-color: gray;
     margin: 0 auto;
+    margin-top: -10px;
 
 }
 
