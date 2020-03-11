@@ -4,11 +4,16 @@
 
 body {
     font-family: 'Roboto', serif;
+    margin: 0;
 }
 
 .logo {
     margin-top: 20px;
     margin-left: 300px;
+}
+
+.menu-fullbar-hamburguer {
+    display: none
 }
 
 .logo-fullbar {
@@ -139,12 +144,19 @@ width:150px;
     
 }
 
+#texto-circulo {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: darkmagenta;
+}
+
 .texto-lorem {
     color: gray;
     font-size: 40px;
     position: relative;
     top: 10px;
-    left: 550px;
+    left: 400px;
     bottom: 20px;
     
 }
@@ -162,8 +174,8 @@ width:150px;
     background-color: gray;
     color: gray;
     position: relative;
-    top: 150px;
-    left: 70px;
+    top: 120px;
+    left: -150px;
 }
 
 .texto-circulo1 {
@@ -180,8 +192,8 @@ width:150px;
     color: gray;
     font-size: 12px;
     position: relative;
-    top: 180px;
-    left: 30px;
+    top: 160px;
+    left: -180px;
 }
 
 .circulo2 {
@@ -191,8 +203,8 @@ width:150px;
     background-color: gray;
     color: gray;
     position: relative;
-    top: 150px;
-    left: 90px;
+    top: 120px;
+    left: -130px;
 }
 
 .texto-circulo2 {
@@ -209,8 +221,8 @@ width:150px;
     color: gray;
     font-size: 12px;
     position: relative;
-    top: 180px;
-    left: 60px;
+    top: 160px;
+    left: -160px;
 }
 
 .circulo3 {
@@ -220,8 +232,8 @@ width:150px;
     background-color: gray;
     color: gray;
     position: relative;
-    top: 150px;
-    left: 110px;
+    top: 120px;
+    left: -110px;
 }
 
 .texto-circulo3 {
@@ -238,8 +250,8 @@ width:150px;
     color: gray;
     font-size: 12px;
     position: relative;
-    top: 180px;
-    left: 80px;
+    top: 160px;
+    left: -140px;
 }
 
 .circulo4 {
@@ -249,8 +261,8 @@ width:150px;
     background-color: gray;
     color: gray;
     position: relative;
-    top: 150px;
-    left: 130px;
+    top: 120px;
+    left: -100px;
 }
 
 .texto-circulo4 {
@@ -267,21 +279,20 @@ width:150px;
     color: gray;
     font-size: 12px;
     position: relative;
-    top: 180px;
-    left: 100px;
+    top: 160px;
+    left: -130px;
 }
 
 .texto-longo {
     display: flex;
     flex-direction: row;
 }
-.lorem-impsu-dos {
-    color: gray;
-    font-size: 40px;
-    position: relative;
-    top: 200px;
-    left: 550px;
-    bottom: 20px;
+
+.container-imagem-texto {
+    width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: cyan;
 }
 
 .container-texto {
@@ -289,25 +300,35 @@ width:150px;
     flex-direction: row;
 }
 
+.lorem-impsu-dos {
+    color: gray;
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+    left: 400px;
+    bottom: 20px;
+}
+
 .imagem {
-    width: 1400px;
+    width: 2200px;
     height: 280px;
     background-color: gray;
     position: relative;
-    top: 200px;
-    left: 300px;
+    top: 30px;
+    left: 100px;
 }
+
 .texto-container {
-    font-size: 15px;
+    font-size: 12px;
     position: relative;
-    top: 200px;
-    left: 330px;
+    top: 30px;
+    left: 140px;
     color: gray;
 }
 .texto-container2 {
-    font-size: 15px;
+    font-size: 12px;
     position: relative;
-    top: 350px;
+    top: 180px;
     left: -230px;
     color: gray;
 }
@@ -318,7 +339,7 @@ width:150px;
     border-radius: 10px;
     background-color: gray;
     position: relative;
-    top: 240px;
+    top: -30px;
     left: 600px;
 }
 
@@ -333,7 +354,7 @@ width:150px;
     border-radius: 10px;
     background-color: gray;
     position: relative;
-    top: 230px;
+    top: -40px;
     left: 620px;
 }
 
@@ -348,7 +369,7 @@ width:150px;
     border-radius: 10px;
     background-color: gray;
     position: relative;
-    top: 220px;
+    top: -50px;
     left: 640px;
 }
 
@@ -358,14 +379,13 @@ width:150px;
 }
 
 .container-footer {
+    width: 1000px;
+    height: 350px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    width: 1200px;
-    height: 300px;
-    margin: 0 auto;
-    background-color: gray;
     position: relative;
-    top: 300px;
+    background-color: gray;
 
 }
 
@@ -381,98 +401,79 @@ width:150px;
     font-size: 12px;
     color: white;
     position: relative;
-    top: 50px;
+    top: 20px;
     left: 200px;
     text-decoration: none;
     margin-bottom: 10px;
 
 }
 
-.container-footer2 {
-    display: flex;
-    flex-direction: column;
-}
-
 .titulo-footer2 {
     font-size: 15px;
     color: white;
     position: relative;
-    top: 20px;
-    left: 400px;
+    top: -170px;
+    left: 320px;
 }
 
 .texto-footer2 {
     font-size: 12px;
     color: white;
     position: relative;
-    top: 50px;
-    left: 400px;
+    top: -170px;
+    left: 320px;
     text-decoration: none;
     margin-bottom: 10px;
 
 }
 
-.container-footer3 {
-    display: flex;
-    flex-direction: column;
-}
 
 .titulo-footer3 {
     font-size: 15px;
     color: white;
     position: relative;
-    top: -80px;
-    left: 500px;
+    top: -265px;
+    left: 420px;
 }
 
 .texto-footer3 {
     font-size: 12px;
     color: white;
     position: relative;
-    top: -48px;
-    left: 500px;
+    top: -265px;
+    left: 420px;
     text-decoration: none;
     margin-bottom: 10px;
 
 }
 
-.container-footer4 {
-    display: flex;
-    flex-direction: column;
-
-}
 
 .titulo-footer4 {
     font-size: 15px;
     color: white;
     position: relative;
-    top: -225px;
-    left: 600px;
+    top: -410px;
+    left: 520px;
 }
 
 .texto-footer4 {
     font-size: 12px;
     color: white;
     position: relative;
-    top: -195px;
-    left: 600px;
+    top: -410px;
+    left: 520px;
     text-decoration: none;
     margin-bottom: 10px;
 
 }
 
-.container-footer5 {
-    display: flex;
-    flex-direction: column;
-
-}
 
 .titulo-footer5 {
     font-size: 15px;
     color: white;
     position: relative;
-    top: -400px;
-    left: 800px;
+    top: -580px;
+    left: 625px;
     margin-bottom: 40px;
 }
 
@@ -482,8 +483,9 @@ width:150px;
     border-radius: 40px;
     background-color: white;
     position: relative;
-    top: -400px;
-    left: 800px;
+    top: -610px;
+    left: 625px;
+
 }
 
 .container-footer7 {
@@ -492,9 +494,9 @@ width:150px;
     border-radius: 40px;
     background-color: white;
     position: relative;
-    top: -380px;
-    left: 800px;
-    
+    top: -650px;
+    left: 680px;
+
 }
 
 .container-footer8 {
@@ -503,8 +505,9 @@ width:150px;
     border-radius: 40px;
     background-color: white;
     position: relative;
-    top: -480px;
-    left: 860px;
+    top: -690px;
+    left: 740px;
+    
 }
 
 .container-footer9 {
@@ -513,8 +516,8 @@ width:150px;
     border-radius: 40px;
     background-color: white;
     position: relative;
-    top: -460px;
-    left: 860px;
+    top: -680px;
+    left: 625px;
     
 }
 
@@ -524,8 +527,8 @@ width:150px;
     border-radius: 40px;
     background-color: white;
     position: relative;
-    top: -560px;
-    left: 920px;
+    top: -720px;
+    left: 680px;
     
 }
 
@@ -535,8 +538,8 @@ width:150px;
     border-radius: 40px;
     background-color: white;
     position: relative;
-    top: -540px;
-    left: 920px;
+    top: -760px;
+    left: 740px;
     
 }
 
@@ -547,19 +550,453 @@ width:150px;
     border: solid 2px;
     background-color: white;
     position: relative;
-    top: -460px;
+    top: -660px;
 }
 
 .titulo-footer-final {
     color: white;
     font-size: 12px;
     position: relative;
-    top: -460px;
-    left: 500px;
+    top: -650px;
+    left: 400px;
+    
+}
+
+/* // MEDIA QUARE// */
+
+@media (max-width: 320px) {
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .menu-fullbar-hamburguer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 90%;
+    }
+    
+    
+    .Menu {
+    margin-right: 450px;
+    
+    }
+
+    .menu-fullbar-hamburguer {
+        list-style:none; 
+        float:left; 
+    }
+
+    .menu-fullbar, .menu-fullbar2, .menu-fullbar3, .menu-fullbar4 {
+        display: none;
+        
+    }
+
+    .menu-fullbar-hamburguer li {
+        position:relative; 
+        float:left; 
+    }
+
+    .menu-fullbar li, .menu-fullbar2 li, .menu-fullbar3 li, .menu-fullbar4 li {
+        display: none;
+    }
+
+    .menu-fullbar-hamburguer li a {
+        color:#333; 
+        text-decoration:none; 
+        display:block;
+        margin-bottom: 10px;
+    }
+        
+    .menu-fullbar li a, .menu-fullbar2 li a, .menu-fullbar3 li a, .menu-fullbar4 li a{
+        display: none;
+    }
+    
+    .menu-fullbar-hamburguer li a:hover{
+        background-color:#333; 
+        color:#fff; 
+        text-shadow:0px 0px 5px #fff;  
+    }
+    
+    .menu-fullbar li a:hover, .menu-fullbar2 li a:hover, .menu-fullbar3 li a:hover, .menu-fullbar4 li a:hover {
+    display: none;
+    }
+
+    .menu-fullbar-hamburguer li ul {
+        position:absolute; 
+        top:20px; 
+        left: 0;
+        background-color:#fff; 
+        display:none;
+        width: 110px;
+        height: 110px;
+        border-radius: 20px;
+        font-size: 12px;
+        color: gray;
+    }
+
+    .menu-fullbar li ul, .menu-fullbar2 li ul, .menu-fullbar3 li ul, .menu-fullbar4 li ul {
+        display: none;
+    }
+
+    .menu-fullbar-hamburguer li:hover ul, .menu-fullbar-hamburguer li.over ul {
+        display: block;
+    }
+        
+    .menu-fullbar li:hover ul, .menu-fullbar li.over ul, .menu-fullbar2 li:hover ul, .menu-fullbar2 li.over.ul, .menu-fullbar3 li:hover ul, .menu-fullbar3 li.over.ul, .menu-fullbar4 li:hover ul, .menu-fullbar4 li.over.ul {
+        display: none;
+    }
+
+    .menu-fullbar-hamburguer li ul li {
+        display:block; 
+        width:150px;
+    }
+        
+    .menu-fullbar li ul li, .menu-fullbar2 li ul li, .menu-fullbar3 li ul li, .menu-fullbar4 li ul li {
+        display: none;
+    }
+
+    #central {
+        width: 300px;
+        height: 500px;
+        background-color: gray;
+        margin: 0 auto;
+        margin-top: -10px;
+    
+    }
+    
+    
+    .texto-central {
+        font-size: 20px;
+        margin-top: 100px;
+        margin-left: 80px;
+        margin-right: 80px;
+        
+    }
+    
+    .texto-do-meio {
+        font-size: 10px;
+        text-align: center;
+        color: white;
+        margin-top: -10px;
+        margin-left: 80px;
+       margin-right: 80px;
+    }
+    
+    .botoes{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .botao1 {
+        position: relative;
+        top: 10px;
+        left: 110px;
+        margin-bottom: 10px;
+        
+    }
+
+     
+.texto-lorem {
+    position: relative;
+    left: 110px;
+    bottom: 5px;
+    font-size: 18px;
+    width: 50%;
+    
+}
+
+#texto-circulo {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    height: 1000px;
+    margin-top: 20px;
+    
+}
+
+.circulo1 {
+    position: relative;
+    top: 20px;
+    left: 70px;
+}
+
+.texto-circulo1 {
+    font-size: 15px;
+    position: relative;
+    top: -5px;
+    left: 50px;
+}
+
+.texto-coluna1 {
+    font-size: 12px;
+    position: relative;
+    top: 30px;
+    left: 80px;
+}
+
+.circulo2 {
+    position: relative;
+    top: 40px;
+    left: 70px;
+}
+
+.texto-circulo2 {
+    font-size: 15px;
+    position: relative;
+    top: -5px;
+    left: 50px;
+}
+
+.texto-coluna2 {
+    font-size: 12px;
+    position: relative;
+    top: 40px;
+    left: 80px;
+}
+
+.circulo3 {
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+
+.texto-circulo3 {
+    font-size: 15px;
+    position: relative;
+    top: -5px;
+    left: 50px;
+}
+
+.texto-coluna3 {
+    font-size: 12px;
+    position: relative;
+    top: 50px;
+    left: 80px;
+}
+
+.circulo4 {
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+
+.texto-circulo4 {
+    font-size: 15px;
+    position: relative;
+    top: -5px;
+    left: 50px;
+}
+
+.texto-coluna4 {
+    font-size: 12px;
+    position: relative;
+    top: 50px;
+    left: 80px;
+}
+
+.container-imagem-texto {
+    width: 300px;
+    height: 700px;
+}
+
+
+.lorem-impsu-dos {
+    font-size: 18px;
+    position: relative;
+    top: 60px;
+    left: 110px;
+    bottom: 20px;
+}
+
+.container-texto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.imagem {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.texto-container {
+    font-size: 12px;
+    position: relative;
+    top: 50px;
+    left: 10px;
+    width: 300px;
+    height: 80px;
+    
+}
+.texto-container2 {
+    font-size: 12px;
+    position: relative;
+    top: 120px;
+    left: 10px;
+    width: 300px;
+    height: 100px;
+}
+
+.circulos-pequenos1 {
+    position: relative;
+    top: -50px;
+    left: 130px;
+}
+
+.circulos-pequenos1:hover{
+    background-color: blueviolet;
+    
+}
+
+.circulos-pequenos2 {
+    position: relative;
+    top: -60px;
+    left: 150px;
+}
+
+.circulos-pequenos2:hover {
+    background-color: blueviolet;
+    
+}
+
+.circulos-pequenos3 {
+    position: relative;
+    top: -70px;
+    left: 170px;
+}
+
+.circulos-pequenos3:hover {
+    background-color: blueviolet;
+    
+}
+
+.container-footer {
+    width: 300px;
+    height: 900px;
+}
+
+.titulo-footer {
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    left: 130px;
+}
+
+.texto-footer {
+    position: relative;
+    top: 10px;
+    left: 120px;
+}
+
+
+.titulo-footer2 {
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    left: 130px;
+}
+
+.texto-footer2 {
+    position: relative;
+    top: 10px;
+    left: 120px;
+}
+
+
+.titulo-footer3 {
+    position: relative;
+    top: 10px;
+    left: 130px;
+}
+
+.texto-footer3 {
+    position: relative;
+    top: 10px;
+    left: 120px;
+    text-decoration: none;
+    margin-bottom: 10px;
+
+}
+
+.titulo-footer4 {
+    position: relative;
+    top: 10px;
+    left: 130px;
+}
+
+.texto-footer4 {
+    position: relative;
+    top: 10px;
+    left: 120px;
 
 }
 
 
+.titulo-footer5 {
+    position: relative;
+    top: 10px;
+    left: 130px;
+}
+
+.container-footer6 {
+    position: relative;
+    top: 5px;
+    left: 80px;
+}
+
+.container-footer7 {
+    position: relative;
+    top: 15px;
+    left: 80px;
+    
+}
+
+.container-footer8 {
+    position: relative;
+    top: -75px;
+    left: 130px;
+}
+
+.container-footer9 {
+    position: relative;
+    top: -65px;
+    left: 130px;
+    
+}
+
+.container-footer10 {
+    position: relative;
+    top: -155px;
+    left: 180px;
+    
+}
+
+.container-footer11 {
+    position: relative;
+    top: -145px;
+    left: 180px;
+    
+}
+
+.linha {
+    width: 220px;
+    position: relative;
+    top: -100px;
+}
+
+.titulo-footer-final {
+    top: -100px;
+    left: 50px;
+
+}
+
+}
 
 
 
