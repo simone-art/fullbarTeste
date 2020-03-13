@@ -629,8 +629,8 @@ width:150px;
 
     .menu-fullbar-hamburguer li ul {
         position:absolute; 
-        top:20px; 
-        left: 0;
+        top: 5px; 
+        left: -50px;
         background-color:#fff; 
         display:none;
         width: 110px;
@@ -673,7 +673,7 @@ width:150px;
     
     .texto-central {
         font-size: 20px;
-        margin-top: 100px;
+        margin-top: 120px;
         margin-left: 80px;
         margin-right: 80px;
         
@@ -1002,6 +1002,7 @@ width:150px;
 
 }
 
+ 
 @media (max-width: 375px) {
 
     .logo {
@@ -1063,8 +1064,8 @@ width:150px;
 
     .menu-fullbar-hamburguer li ul {
         position:absolute; 
-        top:20px; 
-        left: 0;
+        top: 5px; 
+        left: -50px;
         background-color:#fff; 
         display:none;
         width: 110px;
@@ -1107,7 +1108,7 @@ width:150px;
     
     .texto-central {
         font-size: 20px;
-        margin-top: 100px;
+        margin-top: 120px;
         margin-left: 80px;
         margin-right: 80px;
         
@@ -1435,9 +1436,7 @@ width:150px;
 }
 
 }
-
-
-
+ 
  
 @media (max-width: 425px) {
 
@@ -1500,8 +1499,8 @@ width:150px;
 
     .menu-fullbar-hamburguer li ul {
         position:absolute; 
-        top:20px; 
-        left: 0;
+        top: 5px; 
+        left: -50px;
         background-color:#fff; 
         display:none;
         width: 110px;
@@ -1544,7 +1543,7 @@ width:150px;
     
     .texto-central {
         font-size: 20px;
-        margin-top: 100px;
+        margin-top: 120px;
         margin-left: 80px;
         margin-right: 80px;
         
