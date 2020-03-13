@@ -148,7 +148,7 @@ width:150px;
     width: 1000px;
     height: 400px;
     margin: 0 auto;
-    background-color: darkmagenta;
+
 }
 
 .texto-lorem {
@@ -292,7 +292,6 @@ width:150px;
     width: 1000px;
     height: 450px;
     margin: 0 auto;
-    background-color: cyan;
 }
 
 .container-texto {
@@ -312,8 +311,6 @@ width:150px;
 .imagem {
     width: 4000px;
     height: 290px;
-    /* width: 2200px;
-    height: 280px; */
     background-color: gray;
     position: relative;
     top: 30px;
@@ -448,7 +445,6 @@ width:150px;
     left: 420px;
     text-decoration: none;
     margin-bottom: 10px;
-
 }
 
 
@@ -850,7 +846,7 @@ width:150px;
 .circulos-pequenos1 {
     position: relative;
     top: -50px;
-    left: 130px;
+    left: 100px;
 }
 
 .circulos-pequenos1:hover{
@@ -861,7 +857,7 @@ width:150px;
 .circulos-pequenos2 {
     position: relative;
     top: -60px;
-    left: 150px;
+    left: 120px;
 }
 
 .circulos-pequenos2:hover {
@@ -872,7 +868,7 @@ width:150px;
 .circulos-pequenos3 {
     position: relative;
     top: -70px;
-    left: 170px;
+    left: 140px;
 }
 
 .circulos-pequenos3:hover {
@@ -1001,7 +997,7 @@ width:150px;
 }
 
 }
-
+ 
  
 @media (max-width: 375px) {
 
@@ -1435,9 +1431,8 @@ width:150px;
 
 }
 
-}
- 
- 
+} 
+  
 @media (max-width: 425px) {
 
     .logo {
